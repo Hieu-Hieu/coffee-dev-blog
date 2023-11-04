@@ -1,0 +1,12 @@
+.container {
+  width: 70%;
+  min-height: 800px;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  height: 40px;
+  background-color: var(--inputBgLight);
+  padding: 4px 10px 4px 16px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputSearch {
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.inputSearch::placeholder {
+  color: var(--textGray);
+}
+
+.searchIcon {
+  font-size: 18px;
+  color: var(--textGray);
+  padding: 8px;
+  cursor: pointer;
+  margin-bottom: -2px;
+}

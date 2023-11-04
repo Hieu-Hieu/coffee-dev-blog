@@ -1,0 +1,32 @@
+.container {
+  width: 30%;
+  min-height: 800px;
+  padding: 20px;
+}
+
+.profile {
+  position: relative;
+  margin-top: 100px;
+  border-radius: 16px;
+  background: #e7f8ff;
+  min-height: 400px;
+  padding-top: 100px;
+  padding: 100px 10px 10px 10px;
+}
+
+.imageWrap {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: rgba(179, 224, 244, 0.9);
+  border-radius: 50%;
+}
+
+.imageWrap img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: fill;
+}
